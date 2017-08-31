@@ -1,0 +1,1 @@
+配置文件配置完成之后一定要记得修改 kafka服务器上的server.properties,将其中的listeners=PLAINTEXT://192.168.2.132:9092这个属性改成对应的部署服务器ip否则java端调用不到
